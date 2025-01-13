@@ -34,7 +34,7 @@
         text-align:center;
         margin-bottom: 70px;
     }
-
+    
     .blog-links {
         text-align:center;
         margin-bottom: 30px;
@@ -47,18 +47,28 @@
         margin-right: auto;
     }
 
-    
-/*Homepage-specific:*/
 
-    .body {
-        line-height: 1.5;
-        margin-bottom: 80px;
+/*Blog page-specific:*/
+    .blog-title {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: -5px;
+    }
+
+    .blog-subtitle {
+        text-align: center;
+        margin-bottom: 60px;
     }
 
     .header {
-        font-size:25px;
+        font-size: 20px;
+        font-weight: 600;
+        margin-top:60px;
+        margin-bottom: 40px
     }
 
-    .body p {
-        margin-bottom: 30px;
+    .body-paragraph {
+        line-height: 1.5;
+        margin-bottom: 10px;
     }
+
