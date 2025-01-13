@@ -54,4 +54,12 @@
 
     .blog-links {
         text-align:center;
+        margin-bottom: 30px;
+    }
+
+    .axe-icon img {
+        display: block;
+        width: 80px;
+        margin-left: auto;
+        margin-right: auto;
     }
