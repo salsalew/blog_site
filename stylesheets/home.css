@@ -47,11 +47,10 @@
         margin-right: auto;
     }
 
-    
+
 /*Homepage-specific:*/
 
     .body {
-        line-height: 1.5;
         margin-bottom: 80px;
     }
 
@@ -61,4 +60,5 @@
 
     .body p {
         margin-bottom: 30px;
+        line-height: 1.5;
     }

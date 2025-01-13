@@ -34,7 +34,7 @@
         text-align:center;
         margin-bottom: 70px;
     }
-    
+
     .blog-links {
         text-align:center;
         margin-bottom: 30px;
@@ -68,7 +68,11 @@
     }
 
     .body-paragraph {
-        line-height: 1.5;
+        margin-bottom: 80px;
+    }
+
+    .body-paragraph p{
         margin-bottom: 10px;
+        line-height: 1.5;
     }
 
