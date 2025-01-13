@@ -17,25 +17,11 @@
 
     .sl-icon img {
         display: block;
-        width: 100px;
+        width: 90px;
         height: auto;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: -20px;
-    }
-
-    #name-title {
-        /*border: 1px solid white;*/
-        font-size: 40px;
-        text-align: center;
-        margin-bottom: -20px;
-    }
-
-    #small-title {
-        /*border: 1px solid white;*/
-        font-size: 20px;
-        text-align: center;
-        margin-bottom: 30px;
+        margin-bottom: -5px;
     }
 
     .blog-links {
@@ -59,19 +45,20 @@
 /*Blog page-specific:*/
     .blog-title {
         text-align: center;
-        font-size: 30px;
-        margin-bottom: -5px;
+        font-size: 35px;
+        margin-bottom: -10px;
     }
 
     .blog-subtitle {
         text-align: center;
+        font-size: 20px;
     }
 
     .date {
         text-align: center;
         font-size: 12px;
         margin-top: -5px;
-        margin-bottom: 60px;
+        margin-bottom: 100px;
     }
 
     .header {
