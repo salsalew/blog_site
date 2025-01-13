@@ -2,4 +2,8 @@ Checklist (only for adding things I can currently do):
     1. Add "contact" page
     2. Fill in directory with links
     3. Add directory link to home page
-    4. Add directory link to template
+    4. *Add directory link to template
+    5. *Make salsalew pixel art icon
+    6. *Add salsalew icon to all pages with standard header
+
+* = important before adding more blog pages
