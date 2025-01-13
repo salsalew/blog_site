@@ -17,10 +17,11 @@
 
     .sl-icon img {
         display: block;
-        width: 120px;
+        width: 100px;
         height: auto;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: -20px;
     }
 
     #name-title {
@@ -52,7 +53,7 @@
         text-align:center;
         margin-bottom: 30px;
     }
-    
+
     .axe-icon img {
         display: block;
         width: 80px;
