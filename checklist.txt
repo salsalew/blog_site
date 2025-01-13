@@ -1,0 +1,5 @@
+Checklist (only for adding things I can currently do):
+    1. Add "contact" page
+    2. Fill in directory with links
+    3. Add directory link to home page
+    4. Add directory link to template
