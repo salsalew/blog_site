@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog post 02</title>
+    <link rel="stylesheet" href="./../stylesheets/blog-pages.css">
+</head>
+
+<body>
+
+    <a href="./../index.html" class="sl-icon">
+        <img src="./../images/SL-axe-icon.svg" alt="Salsalew icon" width="120" height="120">
+    </a>
+    
+    <p class="blog-title">Blog Post 02</p>
+
+    <p class="blog-subtitle">Combination Git and HTML store</p>
+
+    <p class="date">January 10. 2025</p>
+
+
+    <!--Change body-->
+    <div class="body-paragraph">
+        <p>
+            Day 2 of the blog! It's a big one. It means I'm not just starting things; I'm continuing them for once. Happy day.
+        </p>
+        <p>
+            The first part of today's lesson was a hectic one. First I had to install Bash, which is the shell I was talking about yesterday, and I accidentally installed MacPorts instead of Homebrew. Got it fixed, and for the first time used a google search to find a solution of an issue (uninstalling MacPorts). But finally got that done, and I ended up applying to a job in the meantime, using my rad new terminal command skills to move around and rename the files I'd be uploading. After that I installed Git and have now moved on to learning what it is, what it does, and how to use it, as well as all the same for GitHub.
+        </p>
+        <p>
+            First, I made a new repo in GitHub, along with a "README.md" file, and copied the SSH link. After going into the terminal (which I think you can also access through VSCode? I'll have to check on that), I created a new directory called "repos", then used the <b>git</b> clone command and pasted the link to clone the repo to my local disk. After that, it's just a matter of making changes, staging, and committing.
+        </p>
+        <p>
+            Some new and exciting git commands to log:
+        </p>
+        <ul class="definitions">
+            <li><b>git status</b> - shows the status of modified, staged, and committed on the files that have been messed with recently. Shows how many commits you are ahead of your last sync with GitHub.</li>
+            <li><b>git add</b> - adds a file to the staging area, which will be committed all at once when given the command.</li>
+            <li><b>git commit -m</b> - commits files; if followed by quotes adds a description of the changes made (now that I've altered the settings, I can omit the -m in VSCode and just type in the message when given the prompt.)</li>
+            <li><b>git log</b> - shows the commits you've made recently, as well as who made them, the time, and their descriptions.</li>
+            <li><b>git push</b> - syncs up the commits with GitHub, the origin of the repo. </li>
+        </ul>
+        <p>
+            Finally, the last thing to do is sync all this with GitHub, and it'll show up! Just don't make changes to anything from inside GitHub, and use the "best practices" such as <b>atomic commits</b>, which only change one feature or task in order to keep problems easy to spot and make it easier for other people going through the commits. 
+        </p>
+        <p>So that's my first adventure in Git! It's pretty cool to have all that stuff in multiple places. I was using the default terminal for most of the tutorial before realizing it was expecting me to be doing it in VSCode, so I'll have to get more comfortable with that, but I don't think it'll be an issue. We'll see if I continue learning today or if I just spend the rest of my time playing Isle Goblin.</p>
+    </div>
+
+    <!--Change header-->
+    <p class="header">Some time later...</p>
+
+    <!--Change body-->
+    <div class="body-paragraph">
+        <p>
+            I did actually get back to it, and now I'm learning about the differences between HTML, CSS, and JavaScript. Basically HTML (HyperText Markup Language) deals with the content and structure of a site (basically imbuing it with rich text plus a couple other things), CSS (Cascading Style Sheets) deals with how the site looks, and JavaScript (self-explanatory) gives the site functionality with things like menus or buttons. These are all front end languages (HTML and CSS aren't really, but boohoo) and I'll be starting with HTML first.
+        </p>
+        <p>
+            First I created a new project folder for learning HTML, then created a boilerplate file (for practicing writing boilerplates of course) and an index.html file within that. Then I wrote a boilerplate, rewrote it, then rewrote it again. Here's the cheatsheet:
+        </p>
+        <p>
+            This is the html element, which specifies the doctype, in this case is html5, and the language. It tells the browser how to read the rest of the code.
+        </p>
+        <ul class="definitions">
+            <li>*So... as I'm writing all this in html (several days later), I'm not able to put any of this down. Writing in html would put the code to work, and commenting wouldn't show up on the final blog page. Since I don't need a cheat sheet for a boilerplate anymore, I'm going to leave it out, even though it sadly goes against my "leave it how it is" philosophy so far. I'll make an exception for writing straight-up html until I can figure out hwo to write this straight onto the site, so that means there'll likely be some more blank spaces coming up soon.*</li>
+        </ul>
+        <p>
+            I wish there was some way to colorcode it the way it's supposed to, but if I don't use the backsplash to make the code impotent it "runs" it and ends up making it all disappear because it's standard html. Ugh, Obsidian being too smart again.
+        </p>
+        <p>
+            Now, a few fun elements for within the body tags:
+        </p>
+        <ul class="definitions">
+            <li>*More stuff I can't write because I'm currently coding in html. Yippee.*</li>
+        </ul>
+        <p>
+            And some definitions:
+        </p>
+        <ul class="definitions">
+            <li><b>HTML Attribute</b> - gives additional information to an html element, always goes in the opening tag and is usually made up of a name and a value.</li>
+            <li><b>Absolute Link</b> - a link to another website on the internet (generally scheme://domain/path)</li>
+            <li><b>Relative Link</b> - a link to another page within the current website (only include the *relative* path to the other page).</li>
+        </ul>
+        <p>
+            Whew, that was a lot! I also learned some about how to set up the files and directories for websites, as well as a bunch of syntax, so I have a feeling I'll be coming back to that lesson a good bit in the future. Last (so far, we'll see if I stick to that) I learned about what makes a good commit message (concise and descriptive) and when to commit (every time a meaningful change is made to the code).
+        </p>
+        <p>
+            I think that'll be all today. Hopefully tomorrow I can make something that doesn't look like the most dogshit random single page site ever (that's literally what it is right now). In the meantime I'm taking ibuprofen and going to sleep. Toodles!
+        </p>
+    </div>
+
+
+    <p class="blog-links">
+        <a href="./01-blogpost.html"><- previous</a>
+        <a href="./../index.html">home</a>
+    </p>
+
+    <p class="directory-link">
+        <a href="./../directory.html">blog directory</a>
+    </p>
+
+    <p class="axe-icon">
+        <img src="./../images/axe-icon.svg" alt="Axe character icon" height="60" width="80">
+    </p>
+
+</body>
+
+</html>
