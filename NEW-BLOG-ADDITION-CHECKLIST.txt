@@ -2,9 +2,10 @@ This is the checklist for whenever I add a new blog post:
 
 
     1. Fill in template with content, making sure to delete the comments after you follow their directions
+
     2. Link the previous blog page at the bottom (double-check it works)
 
-    3. Link the current blogpage in the "home" link at the bottom of teh previous page and change the text to "next"
+    3. Link the current blogpage in the "home" link at the bottom of the previous page and change the text to "next"
 
     4. Add entry to directory
 

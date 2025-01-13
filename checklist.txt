@@ -1,6 +1,8 @@
 Checklist (only for adding things I can currently do):
     1. Add "contact" page
-    2. Fill in directory with links
-    3. 
+    2. Move bottom matter buttons to top of homepage?
+    3. Add second blogpost and test checklist
+    4. Label first blogpost
+    5. Add dividers
     
 * = important before adding more blog pages

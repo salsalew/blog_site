@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Change title-->
-    <title>blog post template</title>
+    <title>blog post 01</title>
     <link rel="stylesheet" href="./../stylesheets/blog-pages.css">
 </head>
 
@@ -14,30 +13,101 @@
         <img src="./../images/SL-axe-icon.svg" alt="Salsalew icon" width="120" height="120">
     </a>
 
-    <!--Change title-->
-    <p class="blog-title">Blog Post template</p>
+    <p class="blog-title">Blog Post 01</p>
 
-    <!--Change subtitle-->
-    <p class="blog-subtitle">subtitle</p>
+    <p class="blog-subtitle">adventures in the terminal</p>
 
-    <!--Change date-->
-    <p class="date">Date</p>
+    <p class="date">January 09. 2025</p>
 
-    <!--Change header-->
-    <p class="header">The Intro</p>
-
-    <!--Change body-->
     <div class="body-paragraph">
         <p>
-            The body
+            Don't ask why I made the date look like that. I like it.
+        </p>
+        <p>
+            Onto the content! I just spent about an hour following a lesson about the Unix Shell (still not quite sure what that is, I'm just using the terminal, so it may be synonymous?) and how to navigate through my computer's files. It's taken some work, but I think I'm starting to get the hang of it. I'll review what I've learned (so it stays in my dumb head) and add to it as I continue today. Whew. I'm going to need to do some pixel art to decompress after this. (Side note: the first reason I've found to love programming is that it makes everything else look easy, including art.)
+        </p>
+        <p>
+            After opening the terminal, there a few commands you can use:
+        </p>
+        <ul class="definitions">
+            <li><b>pwd</b> - prints in a /slash/ format where you're located currently.</li>
+            <li><b>ls</b> - prints a list of the items contained within the current directory.</li>
+            <li><b>-a</b> - added to <b>ls</b>>, shows all hidden items, including the previous directory.</li>
+            <li><b>-F</b> - added to <b>ls</b>, adds the type of item to the end of the name (eg directory/).</li>
+            <li><b>.</b> - signifies the current location (useful somehow later).</li>
+            <li><b>..</b> - signifies the previous (vertically, not chronologically) directory.</li>
+            <li><b>cd</b> - changes your location to the specified item (eg not looking, moving).</li>
+            <li><b>/</b> - when at the beginning of a path or alone, signifies the root directory (the origin of all items).</li>
+            <li><b>~</b> - signifies the current user's home directory (eg /Users/ailsa).</li>
+        </ul>
+        <p>
+            Also, to clear up, a couple definitions:
+        </p>
+        <ul class="definitions">
+            <li><b>Absolute Path</b> - the path from the root directory to an item.</li>
+            <li><b>Relative Path</b> - a path used to get from the current location to an item (eg if the location is the root directory, the relative path is the same as the absolute path).</li>
+        </ul>
+        <p>
+            Now, this *seems* like kind of useless info (at least I thought so). Why would you learn all this crap if you can just go to the Finder and <em>see</em> it all, complete with little folder icons for "directories" and previews for documents, applications, files, etc?
+        </p>
+        <p>
+            Turns out there's a couple reasons. First, there's stuff you can see from the terminal that you can't from the Finder, and it's laid out more clearly (in a sense, at least, and that sense is <em>not</em> visual). Second, getting used to the terminal is vital for later crap, especially if you want to run some powerful program for parsing data or something. I have a feeling I'm gonna be doing that pretty soon based on the "exercise" files the site had me download before beginning.
+        </p>
+        <p>
+            The end of the lesson has an interesting tidbit about command syntax. It has an example command that looks like this:
+        </p>
+        <ul class="definitions">
+            <li><b>$ ls -F /</b></li>
+        </ul>
+        <p>
+            The $, or on my Mac the %, is the <i>prompt</i>. In my terminal it has some crap that comes before it. the "ls" is the actual <i>command</i>, like the verb of the sentence. This one is telling the terminal to list something in alphabetical order, etc. Third is the <i>option</i> (or "switch" or "flag"), the "-F", which changes the behavior of the command, and last is the <i>argument</i>, which is like the direct object - the "/", which is shorthand for the root directory. So all in all, the line is telling the computer to list all the items stored one layer deep in the root directory while marking the type of item at the end of the block.
+        </p>
+        <p>
+            Last is a fun little tip about tab completion, but I already knew that, so poo on you.
+        </p>
+        <p>
+            That's all for today. My brain is broke. I want to listen to Hozier and draw on Aseprite. Onto the next adventure!
+        </p>
+    </div>
+
+    <p class="header">Some time later...</p>
+
+    <div class="body-paragraph">
+        <p>
+            Actually, I have nothing to do right now, and I decompressed a little by downloading Unity and promising myself I wouldn't touch it, so I'm going to keep going. I'll do the Aseprite while I'm watching KiloWatt's Aseprite stream later this evening, so I'll be chilling out by watching someone else work. Nice!
+        </p>
+        <p>
+            I ended up realizing my file system was really screwy and decided to go back and rename everything, which caused more screwage, but I think I got it all fixed. I hope. At least now I know how to name files so they're easy to type in the terminal. 
+        </p>
+        <p>
+            But back to the content! Learned a couple new, useful things:
+        </p>
+        <ul class="definitions">
+            <li><b>mkdir</b> - creates a new directory within the current location.</li>
+            <li><b>nano</b> - preceding a .txt name, creates a text file and opens it in nano.</li>
+            <li><b>touch</b> - preceding a .txt name, creates an empty text file.</li>
+            <li><b>-l</b> - an option for listing the "stats" of a file.</li>
+            <li><b>rm</b> - removes a file</li>
+            <li><b>mv</b>moves a file, can be used to "rename" a file by moving it to the same location under a new name (eg current_directory/new_name)</li>
+            <li><b>cp</b> - does the same thing as **mv**, except leaves behind a copy. Putting /directory at the end of multiple items copies them to that directory.</li>
+            <li><b>-r</b> - an option ("recursive") to copy a directory and all of its contents (can only copy or remove a directory with this option).</li>
+            <li><b>*</b> - a wildcard that represents zero or more characters</li>
+            <li><b>?</b> - a wildcard that represents exactly one character</li>
+            <li><b>-p</b> - when applied to a mkdir command, creates any intermediate directories in a path (eg creates 2016, data, and processed nested in order when given 2016/data/processed)</li>
+            <li><b>code .</b> - opens the current location in VSCode.</li>
+        </ul>
+        <p>
+            So that's it for the terminal coding for today! I'm going to take a sneak peek at the next lesson just to get an idea of where I'm going next, but I think I'll chill out and do some pixel art while I watch KiloWatt's Aseprite stream. Might watch some Unity tutorials later. Brain tired. But I do think the blog is helping so far.
+        </p>
+        <p>
+            Peace out!
         </p>
     </div>
 
 
-     <!--Change "previous" and "next" links-->
-     <p class="blog-links">
-        <a href="./"><- previous</a>
-        <a href="./">next -></a>
+    <p class="blog-links">
+        <a href="./00-blogpost.html"><- previous</a>
+        <a href="./../index.html">home</a>
     </p>
 
     <p class="directory-link">

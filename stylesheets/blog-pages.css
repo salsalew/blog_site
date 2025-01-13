@@ -77,3 +77,11 @@
         line-height: 1.5;
     }
 
+    .definitions li {
+        display: inline-block;
+        width:550px;
+        padding-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 10px;
+    }
