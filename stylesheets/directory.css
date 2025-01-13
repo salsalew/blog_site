@@ -1,0 +1,75 @@
+/*Repeat*/
+    * {
+        background-color: #262626;
+        color: #C3B8A3;
+        font-family: "Courier New", monospace;
+        font-size: 15px;
+        width: 650px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    body {
+        /*border: 1px solid white;*/
+        margin-top: 60px;
+        margin-bottom: 90px;
+    }
+
+    .sl-icon img {
+        display: block;
+        width: 90px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -5px;
+    }
+
+    .personal-links {
+        text-align:center;
+        margin-bottom: 10px;
+    }
+
+    .home-link {
+        text-align:center;
+        margin-bottom: 30px;
+    }
+
+    .axe-icon img {
+        display: block;
+        width: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+/*Directory-specific*/
+    .directory-title {
+        text-align: center;
+        font-size: 35px;
+        margin-bottom: -10px;
+    }
+
+    .body {
+        margin-bottom: 100px;
+    }
+
+    .date-header {
+        font-size: 30px;
+        font-weight: 500;
+        margin-top:80px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .links p {
+        width: 400px;
+    }
+
+    .links a {
+        display: inline-block;
+        text-decoration: none;
+        background-color: #363636;
+        padding: 10px;
+        width: 400px;
+        text-align: center;
+        border-radius: 8px;
+    }
