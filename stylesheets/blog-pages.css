@@ -78,11 +78,19 @@
             /* border: 1px solid white; */
         }
         
-        .body-paragraph {
+        .body-paragraph p {
             line-height: 1.5;
             margin-bottom: 10px;
         }
     
     .footer {
-        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 40px;
     }
+
+        .axe {
+            margin-top: 30px;
+        }
