@@ -61,8 +61,12 @@
             }
 
                 .blog-button {
-                    padding: 2em 2.5em;
-                    margin: 50px 50px;
+                    box-sizing: border-box;
+                    margin: 50px 20px;
+                    padding: 30px 10px;
+                    text-align: center;
+                    width: 180px;
+                    height:80px;
                     border: 1px solid #C3B8A3;
                     border-radius: 3px;
                     text-decoration: none;
